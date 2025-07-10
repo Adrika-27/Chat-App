@@ -3,6 +3,10 @@
 A modern, real-time chat application built with **MERN stack** (MongoDB, Express, React, Node.js), **Socket.IO**, **JWT authentication**, and **TailwindCSS**.  
 It supports secure login/signup, scalable stateless authentication, and instant messaging with WebSockets — all packed in a responsive UI.
 
+
+## 🌐 Live Demo
+Link : https://chatting-app-g7j3.onrender.com
+
 ---
 
 ## 🚀 Features
