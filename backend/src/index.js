@@ -11,7 +11,7 @@ import { app, server } from "./lib/socket.js";
 
 dotenv.config();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 const __dirname = path.resolve();
 
 // middlewares
@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "http://localhost:5173",  
     credentials: true,
   })
 );
@@ -48,7 +48,3 @@ connectDB()
     console.error("❌ Failed to connect to MongoDB:", err);
     process.exit(1);
   });
-cors({
-  origin: "http://localhost:5173",
-  credentials: true,
-});

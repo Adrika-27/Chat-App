@@ -4,6 +4,7 @@ import bcrypt from "bcryptjs";
 import cloudinary from "../lib/cloudinary.js";
 
 export const signup = async (req, res) => {
+  
   const { fullName, email, password } = req.body;
   try {
     if (!fullName || !email || !password) {
@@ -116,3 +117,4 @@ export const checkAuth = (req, res) => {
     res.status(500).json({ message: "Internal Server Error" });
   }
 };
+
