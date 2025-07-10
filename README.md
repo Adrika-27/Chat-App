@@ -37,7 +37,6 @@ Link : https://chatting-app-g7j3.onrender.com
 ### Login Screen
 ![Login](https://github.com/user-attachments/assets/9f7f177a-c636-43a7-9ec3-f684ba50a56e)
 
-*(replace the above URL with your actual uploaded image on GitHub, or upload screenshots in your repo and link them properly.)*
 
 ---
 
